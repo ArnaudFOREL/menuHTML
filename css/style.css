@@ -1,0 +1,290 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d9dfe4;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Archivo', sans-serif; 
+}
+
+#container {
+	width: 900px;
+	background-color: #2d3a4b;
+	margin: 150px auto;
+	padding: 50px;
+}
+
+/* HEADER */
+
+
+#header {
+	height: 20%;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+#header .background {
+	width: 800px;
+	height: 600px;
+	background: url(../images/assiette.png);
+	background-position: right;
+	background-size: cover;
+	position: absolute;
+	left: -400px;
+	top: 50px;
+	z-index: -1;
+}
+
+#header #title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110px;
+	color: #FFF;
+	letter-spacing: 50px;
+	text-shadow: 5px 5px 30px #000;
+	z-index: 2;
+	position: relative;
+	left: 40px;
+}
+
+#header .few_words {
+	padding: 75px 50px 50px 170px;
+	position: relative;
+	left: 130px;
+	top: -85px;
+	background-color: rgba(90,100,115,0.9);
+	width: 72%;
+	box-shadow: -20px 20px 45px #000;
+	color: #FFF;
+}
+
+#header #date {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#header .words {
+	width: 70%;
+}
+
+
+
+.divider {
+	width: 200px;
+    height: 1px;
+    background: #fff;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+
+
+.background-color {
+	height: 390px;
+	box-shadow: -20px 20px 60px #000; 
+	position: relative;
+}
+
+.background-img {
+	width: 200px;
+	height: 370px;
+	position: absolute;
+	z-index: -1;
+}
+
+.describ {
+	background-color: #FFF;
+	color: #708590;
+	width: 52%;
+	height: 74%;
+	text-align: center;
+	padding: 10px 80px 20px 15px;
+	box-shadow: -20px 20px 60px #000; 
+	position: absolute;
+	top: 0;
+	left: -125px;
+}
+
+.describ .type {
+	color: #d2a591;
+	text-transform: uppercase;
+	border-top: 2px solid rgba(112,133,144,0.5);
+	padding: 20px 0;
+}
+
+.describ .name:before {
+  display:block;
+  content: '';
+  border-top: solid 2px rgba(112,133,144,0.5);
+  width: 60%;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+}
+
+.describ .name {
+	width: 80%;
+	border-top: 2px solid rgba(112,133,144,0.5);
+	border-bottom: 2px solid rgba(112,133,144,0.5);
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.describ .name:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px rgba(112,133,144,0.5);
+  width: 60%;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px;
+}
+
+.describ .description {
+	width: 90%;
+	margin-left: auto;
+  	margin-right: auto;
+	border-bottom: 2px solid rgba(112,133,144,0.5);
+	font-size: 14px;
+	padding: 20px;
+}
+
+.photo {
+	position: absolute;
+	top: -25px;
+	right: -75px;
+	background-position: center;
+	box-shadow: -20px 20px 60px #000; 
+}
+
+#appetizer {
+position: relative;
+margin: 200px 0;
+}
+
+#appetizer .background-img {
+	background: url(../images/baies.png);
+	background-position: left;
+	background-size: cover;
+	left: -240px;
+	top: 200px;
+}
+
+#appetizer .background-color {
+	width: 125%;
+	background-color: rgba(190,190,70,0.9);
+	left: -70px;
+}
+
+#appetizer .photo {
+	width: 575px;
+	height: 360px;
+	background: url(../images/entree.jpg) no-repeat;
+}
+
+/*GRILL */
+
+#grill {
+position: relative;
+margin: 200px 0;
+}
+
+#grill .background-img {
+	background: url(../images/condiments.jpg);
+	background-position: left;
+	background-size: cover;
+	right: -190px;
+	top: 225px;
+	border-radius: 25px;
+}
+
+#grill .background-color {
+	width: 118%;
+	height: 390px;
+	background-color: rgba(210,85,80,0.9);
+	left: -140px;
+	top: -50px;
+}
+
+#grill .describ {
+	width: 50%;
+	height: 60%;
+	padding: 10px 20px;
+	top: 5%;
+	left: -100px;
+	z-index: 1;
+}
+
+#grill .photo {
+	width: 640px;
+	height: 426px;
+	background: url(../images/burger_g.jpg) no-repeat;
+}
+
+/* DESERT */
+
+#desert {
+position: relative;
+margin: 200px 0;
+}
+
+#desert .background-img {
+	background: url(../images/grappe.png);
+	background-position: left;
+	background-size: cover;
+	left: -240px;
+	top: 200px;
+}
+
+#desert .background-color {
+	width: 125%;
+	background-color: rgba(140,100,70,0.9);
+	left: -70px;
+}
+
+#desert .photo {
+	width: 640px;
+	height: 435px;
+	background: url(../images/tiramisu.jpg) no-repeat;
+	background-position: left;
+	right: -130px;
+}
+
+
+/* FOOTER */
+
+#footer {
+	padding: 75px 50px 50px 170px;
+	position: relative;
+	left: 130px;
+	top: 127px;
+	background-color: rgba(90,100,115,0.9);
+	width: 74%;
+	box-shadow: -20px 20px 45px #000;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+@media (max-width: 800px) {
+body {
+	margin-left: 50%;
+}
+
+}
